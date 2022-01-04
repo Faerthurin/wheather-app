@@ -12,7 +12,7 @@ h1 {
 
 h2 {
   color: green;
-  margin-top: -6px;
+  margin-top: -36px;
 }
 
 h3 {
@@ -42,21 +42,13 @@ input:focus {
 .current-list {
   list-style-type: none;
   font-size: 20px;
-  margin: -87px auto;
-  margin-left: 330px;
+  margin: -70px auto;
+  margin-left: 397px;
   font-weight: 500;
-}
-
-.weather-list {
-  list-style-type: none;
-  font-size: 20px;
-  font-weight: 500;
-  margin: 27px auto;
-  margin-left: 462px;
 }
 
 .row {
-  margin: 62px auto;
+  margin: 103px auto;
   margin-bottom: 23px;
   border-radius: 10px;
   width: 500px;
@@ -75,7 +67,7 @@ input:focus {
 #search {
   width: 200px;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid #8ea6d9;
 }
 
 #searchbtn {
@@ -111,4 +103,10 @@ input:focus {
 
 #sourceLink {
   margin-top: 16px;
+}
+
+#weather {
+  font-size: 50px;
+  margin: auto -17px;
+  position: relative;
 }

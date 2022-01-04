@@ -21,7 +21,11 @@
   <body>
     <div class="container">
       <h1>
-        <span id="temp">18</span>
+        <span id="weather">
+          <img src="" alt="" id="icon" />
+        </span>
+        <span id="temp"></span>
+
         <span class="units">
           <a href="#" id="celsius-link">°C |</a>
 
@@ -31,13 +35,10 @@
       <h2 id="location"></h2>
       <!--Date will be here-->
       <h3></h3>
+
       <ul class="current-list">
-        <li>Wind</li>
-        <li>Humidity</li>
-      </ul>
-      <ul class="weather-list">
-        <li id="wind">5 km/h</li>
-        <li id="humidity">3%</li>
+        <li>Wind: <span id="wind"></span> km/h</li>
+        <li>Humidity: <span id="humidity"></span> %</li>
       </ul>
       <div class="row justify-content-center">
         <div class="col-2">

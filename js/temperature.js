@@ -1,4 +1,5 @@
 function showWheater(response) {
+  console.log(response.data);
   let h1 = document.querySelector("#temp");
   let temperature = Math.round(response.data.main.temp);
   h1.innerHTML = `${temperature}`;
@@ -8,11 +9,17 @@ function showWheater(response) {
 
   let wind = document.querySelector("#wind");
   let speed = Math.round(response.data.wind.speed);
-  wind.innerHTML = `${speed} km/h`;
+  wind.innerHTML = `${speed}  `;
 
   let humidity = document.querySelector("#humidity");
   let humidityPer = Math.round(response.data.main.humidity);
-  humidity.innerHTML = `${humidityPer}%`;
+  humidity.innerHTML = `${humidityPer}  `;
+
+  let icon = document.querySelector("#icon");
+  icon.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
 }
 
 function search(city) {
