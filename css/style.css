@@ -42,13 +42,13 @@ input:focus {
 .current-list {
   list-style-type: none;
   font-size: 20px;
-  margin: -70px auto;
-  margin-left: 397px;
+  margin: -99px auto;
+  margin-left: 390px;
   font-weight: 500;
 }
 
 .row {
-  margin: 103px auto;
+  margin: 134px auto;
   margin-bottom: 23px;
   border-radius: 10px;
   width: 500px;
@@ -97,7 +97,6 @@ input:focus {
 #celsius-link,
 #fahrenheit-link {
   text-decoration: none;
-  color: green;
   font-size: 15px;
 }
 
@@ -109,4 +108,17 @@ input:focus {
   font-size: 50px;
   margin: auto -17px;
   position: relative;
+}
+
+#description:first-letter {
+  text-transform: capitalize;
+}
+
+.active {
+  color: green;
+}
+
+.active:hover {
+  cursor: default;
+  color: green;
 }
